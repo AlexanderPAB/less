@@ -1,0 +1,74 @@
+body {
+  font-family: 'Arial', sans-serif;
+  color: #343a40;
+  background-color: #f8f9fa;
+  padding-top: 20px;
+}
+.navbar {
+  background-color: #0f71c8;
+}
+.navbar .nav-link {
+  color: #0f14b2;
+}
+.navbar .nav-link:hover {
+  color: #528fa1;
+}
+.navbar .navbar-toggler {
+  border-color: #0f14b2;
+}
+.navbar .navbar-brand {
+  font-weight: bold;
+  color: #0f14b2;
+}
+.navbar .navbar-brand:hover {
+  color: #528fa1;
+}
+.carousel-inner .carousel-item {
+  height: 500px;
+}
+.carousel-inner .carousel-item img {
+  height: 100%;
+  object-fit: cover;
+}
+.carousel-inner .carousel-control-prev-icon,
+.carousel-inner .carousel-control-next-icon {
+  background-color: #0f71c8;
+}
+.info {
+  background-color: white;
+  padding: 50px 20px;
+}
+.info h2 {
+  color: #0f71c8;
+  font-weight: bold;
+}
+.info h3 {
+  color: #528fa1;
+}
+.info p {
+  line-height: 1.8;
+}
+.info ul li {
+  margin-bottom: 10px;
+  list-style-type: none;
+}
+.info ul li b {
+  color: #0f71c8;
+}
+.accordion-item {
+  border-bottom: 1px solid #0f71c8;
+}
+.accordion-item .accordion-header .accordion-button {
+  background-color: #0f71c8;
+  color: white;
+}
+.accordion-item .accordion-header .accordion-button:hover {
+  background-color: #528fa1;
+}
+footer {
+  background-color: #0f71c8;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  font-size: 14px;
+}

@@ -1,0 +1,95 @@
+// Variables de colores y fuentes
+@primary-color: #0f71c8;
+@secondary-color: #528fa1;
+@third-color:#0f14b2;
+@font-family-base: 'Arial', sans-serif;
+@bg-light: #f8f9fa;
+@text-color: #343a40;
+
+body {
+    font-family: @font-family-base;
+    color: @text-color;
+    background-color: @bg-light;
+    padding-top: 20px;
+}
+
+.navbar {
+    background-color: @primary-color;
+    .nav-link {
+        color: @third-color;
+        &:hover {
+            color: @secondary-color;
+        }
+    }
+    .navbar-toggler {
+        border-color: @third-color;
+    }
+    .navbar-brand {
+        font-weight: bold;
+        color: @third-color;
+        &:hover {
+            color: @secondary-color;
+        }
+    }
+}
+
+.carousel-inner {
+    .carousel-item {
+        height: 500px;
+        img {
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        background-color: @primary-color;
+    }
+}
+
+.info {
+    background-color: white;
+    padding: 50px 20px;
+    h2 {
+        color: @primary-color;
+        font-weight: bold;
+    }
+    h3 {
+        color: @secondary-color;
+    }
+    p {
+        line-height: 1.8;
+    }
+    ul {
+        li {
+            margin-bottom: 10px;
+            list-style-type: none;
+            b {
+                color: @primary-color;
+            }
+        }
+    }
+}
+
+.accordion-item {
+    border-bottom: 1px solid @primary-color;
+
+    .accordion-header {
+        .accordion-button {
+            background-color: @primary-color;
+            color: white;
+
+            &:hover {
+                background-color: @secondary-color;
+            }
+        }
+    }
+}
+
+footer {
+    background-color: @primary-color;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+}
